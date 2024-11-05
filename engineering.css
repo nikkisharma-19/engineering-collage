@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navhead{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.head1 p{
+    font-size: 10px;
+}
+.head1 a{
+    color: white;
+    text-decoration: none;
+}
+.head1 span{
+    color: orangered;
+}
+.logo{
+    display: flex;
+    margin: 10px 15px 10px 15px;
+    gap: 10px;
+}
+.logochild{
+    width: 250px;
+}
+.child{
+            width: 240px;
+            border: 3px  dashed rgb(238, 101, 51);
+            /* margin-left: 30px; */
+            text-align: center;
+            animation-name: animation;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animation{
+            to{
+                background-color: rgb(238, 101, 51);
+                border:3px solid rgb(238, 101, 51) ;
+            }
+            from{
+                background-color:rgb(240, 233, 233);
+            }
+        }
+           
